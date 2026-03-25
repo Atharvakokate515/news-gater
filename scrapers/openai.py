@@ -52,4 +52,4 @@ class OpenAIScraper:
   
 if __name__ == "__main__":
     scraper = OpenAIScraper()
-    articles: List[OpenAIArticle] = scraper.get_articles(hours=50)
+    articles: List[OpenAIArticle] = scraper.get_articles(hours=50) 
