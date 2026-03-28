@@ -30,7 +30,7 @@ def generate_email_digest(hours: int = 24, top_n: int = 10) -> EmailDigestRespon
         raise ValueError("No digests available")
     
     logger.info(f"Ranking {total} digests for email generation")
-    ranked_articles = curator.rank_digests(digests)
+    ranked_articles = curator.rank_digests(digests) 
     
     if not ranked_articles:
         logger.error("Failed to rank digests")
