@@ -40,7 +40,7 @@ class YouTubeScraper:
                          timeout=5)
         except (subprocess.CalledProcessError, FileNotFoundError):
             print("⚠️  WARNING: yt-dlp not found. Install with: pip install yt-dlp")
-            print("⚠️  Transcripts will not be available until yt-dlp is installed.")
+            print("⚠️  Transcripts will not be available until yt-dlp is installed.") 
 
     def _get_rss_url(self, channel_id: str) -> str:
         """Get RSS feed URL from channel ID"""
