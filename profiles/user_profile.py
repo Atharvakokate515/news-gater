@@ -14,7 +14,7 @@ USER_PROFILE = {
         "Research papers with practical implications",
         "AI infrastructure and scaling challenges"
     ],
-    "preferences": {
+    "preferences": { 
         "prefer_practical": True,
         "prefer_technical_depth": True,
         "prefer_research_breakthroughs": True,
