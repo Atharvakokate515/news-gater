@@ -1,6 +1,6 @@
 # Repository.py — Summary
 
-This file defines a `Repository` class that acts as the main interface for all
+This file defines a `Repository` class that acts as the main interface for all 
 database operations in the project. It uses SQLAlchemy sessions to interact with
 models such as YouTubeVideo, OpenAIArticle, AnthropicArticle, and Digest.
 
