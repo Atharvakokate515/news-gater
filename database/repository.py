@@ -326,7 +326,7 @@ class Repository:
                 })
         
         anthropic_articles = self.session.query(AnthropicArticle).filter(
-            AnthropicArticle.markdown.isnot(None)
+            AnthropicArticle.markdown.isnot(None) 
         ).all()
         for article in anthropic_articles:
             key = f"anthropic:{article.guid}"
