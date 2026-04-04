@@ -27,7 +27,7 @@ class OpenAIArticle(Base):
     url = Column(String, nullable=False)
     description = Column(Text)
     published_at = Column(DateTime, nullable=False)
-    category = Column(String, nullable=True)
+    category = Column(String, nullable=True) 
     created_at = Column(DateTime, default=datetime.utcnow)
 
 
